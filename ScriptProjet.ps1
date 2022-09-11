@@ -1,14 +1,23 @@
+#  Get the name of the project
 $Projet = Read-Host "What is the name of your project ?"
+
 write-host "Let's gooooooooo !!!!!!!!🎊✨✨"
+
 Write-Host "have fun 😎🫡"
+
+#   Choose the project you want to install
 $Projets = Read-Host "Reactjs  or vuejs or ReactNatvie"
 
 
 if ($Projets -contains 'react' ) {
+
+# Install  react 
+
     npx create-react-app $Projet
 
     cd $Projet
 
+# Install  git
     git init
     
     git add --all
@@ -25,14 +34,17 @@ if ($Projets -contains 'react' ) {
     git push -u origin main
 
     Write-Host "Thank you for using my script 😁🤩"
-    
+
+    # Start project
     npm start
 }
 elseif ( $Projets -contains 'vue') {
+    # Install  vue 3 
     npm init vue@latest $Projet
     cd $Projet
+     # Install  vue 3 dependence
     npm install
-    
+    # Install  git
     git init
     
     git add --all
@@ -49,12 +61,14 @@ elseif ( $Projets -contains 'vue') {
     git push -u origin main
 
     Write-Host "Thank you for using my script 😁🤩"
-
+   # Start project
     npm run dev
 }
 elseif ( $Projets -contains 'react-native') {
     npm install -g expo-cli
+       # Install  expo
     expo init $Projet
+      # Install  git
     cd $Projet
     git init
     
@@ -72,7 +86,7 @@ elseif ( $Projets -contains 'react-native') {
     git push -u origin main
 
     Write-Host "Thank you for using my script 😁🤩"
-    
+     # Start project
     npm start
 
 } else {

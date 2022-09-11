@@ -9,9 +9,9 @@ I built this script to help us to start some projects (Reactjs, vue3, React Nati
 
 You have the possibility to launch 3 projects for the moment Reactjs, vue3  and ReactNative
 
-- For Reactjs you will writte 'react'
-- For  Vue 3 you will writte 'vue'
-- For  ReactNative you will writte 'react-native'
+- For Reactjs you will write 'react'
+- For  Vue 3 you will write 'vue'
+- For  ReactNative you will write 'react-native'
 
 
 

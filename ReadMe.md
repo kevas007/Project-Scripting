@@ -11,7 +11,7 @@ You have the possibility to launch 3 projects for the moment Reactjs, vue3  and 
 
 - For Reactjs you will write 'react'
 - For  Vue 3 you will write 'vue'
-- For  ReactNative you will write 'react-native'
+- For  ReactNative you will write 'reactNative'
 
 
 
